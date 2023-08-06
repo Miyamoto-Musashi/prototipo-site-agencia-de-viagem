@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+src: url("../_fonts/bubblegum-sans-regular.otf")
+} 
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(220, 255, 254, 0.132);
+    color: black;
+    width: 100%;
+    margin: auto;
+}
+
+.custom-class {
+    display: block;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+header#cabecalho img#foto {
+    width: 1519px;
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    display: -1;
+}
+
+header#cabecalho img#logo {
+    width: 50px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalho-secundario h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 0px;
+    display: -1;
+}
+
+header#cabecalho-secundario img#logo {
+    width: 50px;
+}
+
+header#cabecalho-secundario h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    text-align: left;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+nav#menu-principal {
+    display: block;
+}
+
+nav#menu-secundario {
+    display: block;
+}
+
+nav#menu-principal ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 900px;
+    background-color: hsl(208, 100%, 97%, .5);
+    border-radius: 5px;
+}
+
+nav#menu-principal li {
+    display: inline-block;
+    padding: 5px;
+    margin: 16px;
+    transition: background-color 1s;
+}
+
+nav#menu-principal li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav#menu-principal li:hover {
+    background-color: #1111111e;
+    border-radius: 5px;
+    transition: color 1s;
+    transition: background-color 1s;
+}  
+
+/* Usado nas páginas essenciais */
+nav#menu-secundario li {
+    display: inline-block;
+    padding: 5px;
+    margin: 16px;
+    transition: background-color 1s;
+}
+
+nav#menu-secundario li:hover {
+    background-color: #1111111e;
+    border-radius: 5px;
+    transition: color 1s;
+    transition: background-color 1s;
+}   
+
+nav#menu-secundario li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+/* Layout Home */
+.card {
+    display: inline-flex;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container px-4 py-5 {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+div#custom-cards h2 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    display: -1; 
+}
+
+/* Folha de Estilo em cascata PG Promoções */
+
+body {
+    background-image: linear-gradient(180deg, var(--bs-secondary-bg), var(--bs-body-bg) 100px, var(--bs-body-bg));
+}
+  
+.container {
+    max-width: 1250px;
+}
+  
+.pricing-header {
+    max-width: 700px;
+}
+  
